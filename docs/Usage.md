@@ -69,6 +69,7 @@ $services->set('Foo.Bar.Baz', 'Foo\Bar\BazFactory::make');
 ```
 The method "make" of `Foo\Bar\BazFactory`  factory must meet the following 
 conditions:
+
 1. It should be static
 2. It should return an instance of the service class
 
@@ -87,6 +88,7 @@ $services->set('Foo.Bar.Baz', 'Foo\Bar\BazAbstractFactory::make::');
 ```
 The method "make" of `Foo\Bar\BazAbstractFactory` factory must meet the following 
 conditions:
+
 1. It should be static
 2. It should return an instance of the service class
 3. It must take the service name as an argument.
