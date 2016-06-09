@@ -128,7 +128,7 @@ $services->set('Foo.Bar.Baz', $instance);
 
 ## Defining the set of serivces
 
-To define abstract factory use the following syntax:
+To define the set of services use the following syntax:
 ```
 $config = [
     'Foo.Bar.Baz' => 'Foo\Bar\Baz',
