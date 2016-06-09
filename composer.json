@@ -1,0 +1,24 @@
+{
+    "name": "easy-system/es-services",
+    "description": "Easy System Services",
+    "authors": [
+        {
+            "name": "Damon Smith",
+            "email": "damon.easy.system@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^5.5 || ^7.0",
+        "easy-system/es-component": "*",
+        "easy-system/es-exception": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Es\\Services\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": { "Es\\Services\\Test\\": "test/" }
+    },
+    "minimum-stability": "dev"
+}
